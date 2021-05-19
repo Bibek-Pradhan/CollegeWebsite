@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.nav-item{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: .9rem;
+}
+
+.navbar{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2));
+}
+
+.navbar-nav{
+	padding-right: .7rem;
+}
+
+.nav-link {
+	padding-top: .8rem;
+}
+.nav-item:hover{
+	color: #1ebba3;
+}
+
+.carousel-item{
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home .carousel-caption{
+	position: absolute;
+	top: 38%;
+	letter-spacing: 2px;
+	padding-bottom: 0.5rem;
+	font-family: arial, sans-serif;
+}
+
+#home .carousel-caption h1{
+	font-size: 3.8rem;
+	font-weight: 500;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 0.5rem;
+}
+
+#home .carousel-caption p{
+	font-size: 19px;
+	text-shadow: .1rem .1rem .5rem blue;
+}
+
+.btn-lg{
+	border-width: medium;
+	border-radius: 0;
+	font-size: 1.1rem;
+}
+
+#logo{
+	color: red;
+}
+
+.offset:before{
+	height: 3.8rem;
+	margin-top: -3.8rem;
+	content: "";
+	display: block;
+}
+
+.jumbotron{
+	border-radius: 0;
+	padding: 3rem 0 2rem;
+}
+
+h3.heading{
+	font-size: 1.9 rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 1.9rem;
+}
+
+
+.heading-underline{
+	width: 6rem;
+	height: .2rem;
+	background-color: blue;
+	margin: 0 auto 2rem;
+}
+
+.gallery img{
+	max-width: 100%;
+	transition: transform .5s ease;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.row.no-padding [class*=col-]{
+	padding: 0;
+}
+
+.gallery img:hover{
+	transform: scale(1.1);
+	cursor: zoom-in;
+}
+
+.gallery{
+	overflow: hidden;
+}
+
+[class*="col-"]{
+	padding: 4rem;
+}
+
+.events img{
+	max-width: 100%;
+}
+
+.events{
+	border: 1px solid orange;
+	border-radius: 2%;
+}
+
+.events-title{
+	color: brown;
+}
+
+.col-center{
+	margin: 0 auto;
+	float: none!important;
+}
+
+.carousle{
+	margin: 50px auto;
+	padding: 0 70px;
+}
+
+.carousel .item .img-box{
+	width: 170px;
+	height: 170px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+.carousel .img-box img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+
+.carousel .testimonials{
+	padding: 30px 0 10px;
+}
+
+.carousel .overview{
+	font-style: italic;
+}
+
+.carousel .overview b{
+	text-transform: uppercase;
+	color: #db584e;
+}
